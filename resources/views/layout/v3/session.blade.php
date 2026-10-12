@@ -70,6 +70,7 @@
     @endif
 
     @vite(['sass/app.scss'])
+    @include('partials.layout.ui-fork')
 
     <x-layout.fav-icons/>
     <!--end::Accessibility Features-->

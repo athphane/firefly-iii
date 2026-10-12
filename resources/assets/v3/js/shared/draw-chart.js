@@ -19,6 +19,7 @@
  */
 
 import Chart from "chart.js/auto";
+import "../fork/chart-theme.js";
 import formatMoney from "../util/format-money.js";
 import i18next from "i18next";
 import formatDate from "../util/format-date.js";

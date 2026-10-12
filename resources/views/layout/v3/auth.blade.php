@@ -20,6 +20,7 @@
     <meta name="theme-color" content="#1a1a1a" media="(prefers-color-scheme: dark)"/>
     <meta name="color-scheme" content="light dark">
     @vite(['sass/app.scss'])
+    @include('partials.layout.ui-fork')
     <x-layout.fav-icons-clean />
     <script nonce="{{ $JS_NONCE }}">
         (() => {
